@@ -1,0 +1,87 @@
+body {
+  background-color: blue;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.input, .output {
+  padding: 20px;
+}
+
+.input-text {
+  width: 200%;
+  height: 400px;
+  padding: 10px;
+  border: 1px solid black;
+  resize: none;
+  background-color: blue;
+  font-size: 15px;
+  color: white; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.input-text:focus {
+  border-color: #61dafb; 
+  outline: none;
+}
+
+.output h3 {
+  margin-left: 250px;
+}
+
+.output-text {
+  margin-left: 75%;
+  width: 200%;
+  height: 400px;
+  padding: 10px;
+  resize: none;
+  background-color: rgb(61, 58, 58);
+  color: white;
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow-y: auto; 
+}
+.output-text::-webkit-scrollbar {
+  width: 10px;
+}
+
+.output-text::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 5px;
+}
+
+.output-text::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+.output-text::-webkit-scrollbar-track {
+  background: rgb(61, 58, 58);
+}
+button {
+  background-color: #61dafb;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+button:active {
+  background-color: #1a7ec8;
+}
